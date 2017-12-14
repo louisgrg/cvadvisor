@@ -28,6 +28,16 @@
 
   </head>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110956748-2"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+		gtag('config', 'UA-110956748-2');
+	</script>
+
+	
   <body id="page-top">
 
     <!-- Navigation -->
@@ -106,7 +116,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <a href=" "class="btn btn-outline btn-xl js-scroll-trigger"><font color="FF00CC"><h2 class="section-heading">Cadastre-se aqui!</h2></font></a>
+            <a href=" "class="btn btn-outline btn-xl js-scroll-trigger" onclick="gtag('event','buttonDownloadClick')"><font color="FF00CC"><h2 class="section-heading">Cadastre-se aqui!</h2></font></a>
             <p><font size = "7">Para saber quando a ferramenta estiver disponível!</p></font>
           </div>
         </div>
